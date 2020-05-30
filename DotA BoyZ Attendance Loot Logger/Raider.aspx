@@ -4,6 +4,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <section class="container"></section>
     <form id="form1" runat="server">
         <div>
             <table style="margin-top: 20px; margin-left: 25px">
@@ -55,6 +56,41 @@
         <div style="margin-left:25px; margin-top:20px">
             <asp:GridView ID="GridView1" runat="server" BorderWidth="1px" BorderStyle="Solid" BorderColor="Black"></asp:GridView>
         </div>
-        
     </form>
+    <div class="container-fluid">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Player</th>
+            <th scope="col">Item</th>
+            <th scope="col">Rolled</th>
+            <th scope="col">Points</th>
+            <th scope="col">Received</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Meme</th>
+            <td>Drake Talon Shoulders</td>
+            <td>Yes</td>
+            <td>60</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <th scope="row">Meme</th>
+            <td>Drake Talon Shoulders</td>
+            <td>Yes</td>
+            <td>60</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <th scope="row">Meme</th>
+            <td>Drake Talon Shoulders</td>
+            <td>Yes</td>
+            <td>60</td>
+            <td>Yes</td>
+        </tr>
+    </table>
+    </div>
+    </body>
 </asp:Content>
