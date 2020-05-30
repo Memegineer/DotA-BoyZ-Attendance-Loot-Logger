@@ -19,28 +19,34 @@
     </asp:ContentPlaceHolder>
 </head>
 
-<header>
-  <h1 class="logo">Logo</h1>
-  <input type="checkbox" id="nav-toggle" class="nav-toggle">
-  <nav>
-    <ul>
-      <li><a href="Home.aspx">Home</a></li>
-      <li><a href="About.aspx">About</a></li>
-      <li><a href="Contact.aspx">Contact</a></li>
-      <li><a href="Login.aspx">Login</a></li>
-    </ul>
-  </nav>
-  <label for="nav-toggle" class="nav-toggle-label">
-    <span></span>
-  </label>
-</header>
 <body>
-    padding
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="imgs/dotaBoyzKevin.jpg"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="Home.aspx">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About.aspx">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.aspx">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Login.aspx">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
     <%-- Main Content Placeholder --%>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-    <%-- Main Content Placeholder --%>
 </body>
 </html>
