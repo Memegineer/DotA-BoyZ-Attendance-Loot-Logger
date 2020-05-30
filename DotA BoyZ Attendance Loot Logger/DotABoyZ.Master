@@ -20,30 +20,30 @@
 </head>
 
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="imgs/dotaBoyzKevin.jpg"/></a>
+    <a class="navbar-brand" href="#">Add Image Later</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="Home.aspx">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="About.aspx">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="Contact.aspx">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="Login.aspx">Login</a>
             </li>
         </ul>
     </div>
 </nav>
 
-    <p>padding</p>
     <%-- Main Content Placeholder --%>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
