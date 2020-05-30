@@ -24,7 +24,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger
 
         }
 
-        public void BindData(string inRaid, string inBoss, string inItem, string inCharacter)
+        public void BindData(string inItem)
         {
             try
             {
@@ -38,7 +38,9 @@ namespace DotA_BoyZ_Attendance_Loot_Logger
                 //opens connection to mysql database
                 conn.Open();
 
-                MySqlCommand cmd = new MySqlCommand("SELECT Character FROM players_loot_list", conn);
+                string query = "SELECT _Character, Item, Received, Assigned_Points FROM players_loot_list WHERE Item LIKE '%" + inItem + "%' ORDER BY Received ASC, Assigned_Points DESC";
+               
+                MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 adp.Fill(ds);
@@ -59,10 +61,10 @@ namespace DotA_BoyZ_Attendance_Loot_Logger
             /*
             raid = DropDownList1.Text;
             boss = txtBoss.Text;
-            item = txtItem.Text;
             character = txtCharacter.Text;
-            BindData(raid, boss, item, character);
             */
+            item = txtItem.Text;
+            BindData(item);
         }
     }
 }
