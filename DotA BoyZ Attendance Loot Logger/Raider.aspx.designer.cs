@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DotA_BoyZ_Attendance_Loot_Logger {
-    
-    
-    public partial class Raider {
-        
+namespace DotA_BoyZ_Attendance_Loot_Logger
+{
+
+
+    public partial class Raider
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// lblRaid control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRaid;
-        
+
         /// <summary>
         /// DropDownList1 control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
+
         /// <summary>
         /// lblBoss control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblBoss;
-        
+
         /// <summary>
         /// txtBoss control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBoss;
-        
+
         /// <summary>
         /// lblItem control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblItem;
-        
+
         /// <summary>
         /// txtItem control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtItem;
-        
+
         /// <summary>
         /// lblCharacter control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCharacter;
-        
+
         /// <summary>
         /// txtCharacter control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCharacter;
-        
+
         /// <summary>
         /// btnSearch control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace DotA_BoyZ_Attendance_Loot_Logger {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSearch;
-        
+
         /// <summary>
         /// GridView1 control.
         /// </summary>
